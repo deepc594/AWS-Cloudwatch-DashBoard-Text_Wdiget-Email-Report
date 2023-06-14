@@ -1,4 +1,4 @@
-# AWS-Cloudwatch-DashBoard-Text_Wdiget-Email-Report
+# AWS Cloudwatch DashBoard- Text Wdiget Email Report
 
 In AWS CLoudwatch Dashbaord there are many different type of widgets possible to create a dashboard, however extracting the data from the dashbaord and publishing in an email might be tricky sometimes.
 As for example when using Metric Widget, we can use getMetricWidgetImage -> https://docs.aws.amazon.com/AmazonCloudWatch/latest/APIReference/API_GetMetricWidgetImage.html
