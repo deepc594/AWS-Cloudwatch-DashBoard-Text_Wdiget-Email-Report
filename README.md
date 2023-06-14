@@ -8,6 +8,6 @@ Using the get_dashbaord method, we'll get the output in following format :
 
 {"widgets": [{"type": "text", "width": 24, "height": 8, "x": 0, "y": 13, "properties": {"markdown": "# Azure Pipeline Status\n SERVICE | TOTAL|FINISHED| RUNNING| TOBERUN| NOTRUN| WARNING| ERROR| UNKNOWN\n-----------------------------------|--------|--------|--------|--------|--------|--------|--------|--------\nTEST_RNIV | 1 | 1 | | | | | | \nTEST_VAR | 3189 | 549 | 565 | 2071 | | 1 | | 3 \nTEST_PLExplain_T0 | 1421 | 1414 | 7 | | | | | \nTEST_PLExplain_T1 | 1077 | 1077 | | | | | | \nTEST_standard | 600 | 600 | | | | | | \nTEST_RTHTPL | 557 | 556 | 1 | | | | |"}}]}
 
-However, this format won't be ideal one to send over using the email, so we update this format using python to represent it in html format, so that the final output somewhat looks like : 
+However, this format won't be ideal one to send over email using smtp, so we update this format using python to represent it in html format, so that the final output somewhat looks like : 
 
 ![image](https://github.com/deepc594/AWS-Cloudwatch-DashBoard-Text_Wdiget-Email-Report/assets/69808468/b9c9e65b-d87e-4f88-ab3d-d22f68cad3c5)
